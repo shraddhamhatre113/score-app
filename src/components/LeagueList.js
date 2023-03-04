@@ -12,7 +12,7 @@ function LeagueList() {
       {filterLeagues.map((e) => {
         return (
     
-            <NavLink to={`${e.league.id}`} key={`${e.league.id}`} className="list-group-item list-group-item-action d-flex align-items-center">
+            <NavLink to={`/score-app/${e.country.name}/${e.league.id}`} key={`${e.league.id}`} className="list-group-item list-group-item-action d-flex align-items-center">
               <div
                 style={{
                   display: "flex",

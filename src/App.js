@@ -18,7 +18,7 @@ function App() {
         </div>
         <Routes>
           <Route
-            path="/"
+            path="/score-app"
             exact
             element={
               <div className="row">
@@ -28,7 +28,7 @@ function App() {
             }
           ></Route>
           <Route
-            path="/:country"
+            path="/score-app/:country"
             element={
               <div className="row">
                 <LeagueList></LeagueList>
@@ -37,7 +37,7 @@ function App() {
             }
           />
           <Route
-            path="/:country/:leagueId"
+            path="/score-app/:country/:leagueId"
             element={
               <div className="row">
                 <LeagueList></LeagueList>
@@ -46,7 +46,7 @@ function App() {
             }
           />
           <Route
-            path="/:country/:leagueId/:fixtureId"
+            path="/score-app/:country/:leagueId/:fixtureId"
             element={
               <div className="row">
                 <LeagueList></LeagueList>

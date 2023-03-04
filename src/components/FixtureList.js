@@ -9,7 +9,7 @@ function FixtureList() {
       {fixtureList.response.map((elem) => {
         return (
          
-            <NavLink to={`/${elem.league.country}/${elem.league.id}/${elem.fixture.id}`}  key={elem.fixture.id} className='list-group-item list-group-item-action'>
+            <NavLink to={`/score-app/${elem.league.country}/${elem.league.id}/${elem.fixture.id}`}  key={elem.fixture.id} className='list-group-item list-group-item-action'>
                
               <FixtureItem details={elem}></FixtureItem>
             </NavLink>
