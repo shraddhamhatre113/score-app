@@ -1,32 +1,31 @@
-
-
 function FixtureItem({ details }) {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "row",
-        gap: "0.6rem",
-
-      }}
-    >
-      <div>{details.fixture.status.elapsed}</div>
-      <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem",width:'100%'}}>
-        <div className='team-row'>
-          <img style={{width:'1rem',height:'1rem'}}
-            src={details.teams.home.logo}
-            alt=""
-          />
-          <span className="name">{details.teams.home.name}</span>
-          <span>{details.goals.home}</span>
+    <div className="row d-flex align-items-center">
+      <div className="col-lg-1">{details.fixture.status.elapsed}</div>
+      <div className="col">
+        <div className="row">
+          <span className="col d-flex align-items-lg-center justify-content-start">
+            <img
+              className="text-info mx-2"
+              style={{ width: "1rem", height: "1rem" }}
+              src={details.teams.home.logo}
+              alt=""
+            />
+            {details.teams.home.name}
+          </span>
+          <span className="col-lg-1">{details.goals.home}</span>
         </div>
-        <div className='team-row'>
-          <img style={{width:'1rem',height:'1rem'}}
-            src={details.teams.away.logo}
-            alt=""
-          />
-          <span className="name">{details.teams.away.name}</span>
-          <span>{details.goals.away}</span>
+        <div className="row">
+          <span className="col d-flex align-items-lg-center justify-content-start">
+            <img
+              className="text-info mx-2"
+              style={{ width: "1rem", height: "1rem" }}
+              src={details.teams.away.logo}
+              alt=""
+            />
+            {details.teams.away.name}
+          </span>
+          <span className="col-lg-1">{details.goals.away}</span>
         </div>
       </div>
     </div>

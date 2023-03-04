@@ -2,10 +2,10 @@ import { Outlet } from "react-router-dom";
 
 function RightPanel(props) {
   return (
-    <div style={{ border: "2px solid",color:'white' }}>
-      <ul style={{ listStyleType: "none" }}>
+    <div className="col-sm-8 col-8">
+      <div className="list-group">
         {props.children}
-      </ul>
+      </div>
       <Outlet />
     </div>
   );

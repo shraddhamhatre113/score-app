@@ -8,25 +8,18 @@ function CountriesPanel() {
     <LeftPanel>
       {countries.response.map((e) => {
         return (
-          <li>
-            <NavLink to={`${e.code}`} key={e.code}>
-              <div
-                style={{
-                  display: "flex",
-                  alignItem: "center",
-                  flexDirection: "row",
-                  gap: "0.3rem",
-                }}
-              >
+
+            <NavLink to={`${e.name}`} key={e.code} className="list-group-item list-group-item-action d-flex align-items-center">
+          
                 <img
+                className="text-info mx-2"
                   style={{ height: "1rem", width: "1rem" }}
                   src={e.flag}
                   alt="flag"
                 />
-                <span>{e.name}</span>
-              </div>
+                {e.name}
+            
             </NavLink>
-          </li>
         );
       })}
     </LeftPanel>
