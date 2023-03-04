@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/score-app/static/css/main.88198a84.css",
-    "main.js": "/score-app/static/js/main.ce08d432.js",
+    "main.js": "/score-app/static/js/main.7986dec4.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/score-app/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/score-app/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/score-app/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -10,10 +10,10 @@
     "static/media/stadium-icon-14.jpg": "/score-app/static/media/stadium-icon-14.3891acf68e7363cf8570.jpg",
     "index.html": "/score-app/index.html",
     "main.88198a84.css.map": "/score-app/static/css/main.88198a84.css.map",
-    "main.ce08d432.js.map": "/score-app/static/js/main.ce08d432.js.map"
+    "main.7986dec4.js.map": "/score-app/static/js/main.7986dec4.js.map"
   },
   "entrypoints": [
     "static/css/main.88198a84.css",
-    "static/js/main.ce08d432.js"
+    "static/js/main.7986dec4.js"
   ]
 }
