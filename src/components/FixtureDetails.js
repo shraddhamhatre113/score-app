@@ -14,7 +14,7 @@ function FixtureDetails() {
       "X-RapidAPI-Host": "api-football-v1.p.rapidapi.com",
     },
   };
-   //let apiUrl = `https://api-football-v1.p.rapidapi.com/v3/fixtures?id=${fixtureId}`;
+  //  let apiUrl = `https://api-football-v1.p.rapidapi.com/v3/fixtures?id=${fixtureId}`;
   let apiUrl = "https://run.mocky.io/v3/7ad36460-adff-4ddb-8fad-dac9ff0e1a59";
   useEffect(() => {
     fetch(apiUrl, options)

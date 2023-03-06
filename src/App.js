@@ -28,7 +28,7 @@ function App() {
               </div>
             }
           >
-            <Route
+            {/* <Route
             path=":country"
             element={
               <div className="row">
@@ -36,9 +36,9 @@ function App() {
                 <FixtureList></FixtureList>
               </div>
             }
-          />
+          /> */}
           </Route>
-          {/* <Route
+          <Route
             path="/score-app/:country"
             element={
               <div className="row">
@@ -64,7 +64,7 @@ function App() {
                 <FixtureDetails></FixtureDetails>
               </div>
             }
-          /> */}
+          />
         </Routes>
       </div>
     </div>

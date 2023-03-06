@@ -39,4 +39,9 @@ Significance of this component is you can see countries list with each country n
 <img src = './src/images/table.jpg' style = 'width:10%'>  .
 
 ## Reference
-* https://www.api-football.com for Foot ball data.
+* https://www.livescore.com/en/ :- took reference from this site to building app
+* https://www.api-football.com -for Foot-ball data.
+* https://bootstrapstudio.io/ I used this site to build component.
+* https://www.npmjs.com/package/react-soccer-lineup?activeTab=readme :- Install this react library for lineup tab.
+* https://bootswatch.com/pulse/ :- used this bootstrap theme
+

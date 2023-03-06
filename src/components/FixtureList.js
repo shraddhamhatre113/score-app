@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 function FixtureList() {
     const [fixtureList, setFixtureList] = useState([])
-    const {leagueId='39'} = useParams();
+    const {leagueId =39} = useParams();
     const options = {
         method: 'GET',
         headers: {
@@ -15,7 +15,7 @@ function FixtureList() {
             'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
         }
     };
-     //let apiUrl = `https://api-football-v1.p.rapidapi.com/v3/fixtures?league=${leagueId}&last=20`;
+    //  let apiUrl = `https://api-football-v1.p.rapidapi.com/v3/fixtures?league=${leagueId}&last=20`;
 let apiUrl = 'https://run.mocky.io/v3/06cdae21-524b-4121-8ea6-804020c5478a'
 
     useEffect(() => {
