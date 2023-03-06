@@ -9,7 +9,7 @@ function CountriesPanel() {
       {countries.response.map((e) => {
         return (
 
-            <NavLink to={`/score-app/${e.name}`} key={e.code} className="list-group-item list-group-item-action d-flex align-items-center">
+            <NavLink to={`/score-app/${e.name}`} key={e.code} className="list-group-item list-group-item-action d-flex align-items-center" style={{opacity:'0.9'}}>
           
                 <img
                 className="text-info mx-2"

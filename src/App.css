@@ -1,5 +1,14 @@
+
+body{
+  background-image: url('images/182129.jpg')!important;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .App {
   text-align: center;
+ 
+ 
 }
 .team-row {
   display: grid;
@@ -17,4 +26,11 @@
 }
 .nav-links{
   text-decoration: none;
+}
+.main-view {
+  height: 90vh;
+  width: 90w;
+}
+.tabs-background{
+  background-color: var(--bs-list-group-bg);
 }

@@ -79,7 +79,7 @@ function TabPanel(props) {
           </a>
         </li>
       </ul>
-      <div className="tab-content">
+      <div className="tab-content tabs-background">
         <div
           id="tab-1"
           className={`${

@@ -4,18 +4,18 @@ function TableTab() {
   const rowRankColor = (rank) => {
     switch (rank) {
       case 1:
-        return "#FFD700";
+        return "bg-warning";
       case 2:
       case 3:
       case 4:
-        return "#D5F5E3";
+        return "bg-info";
       case 5:
       case 6:
-        return "#D6EAF8";
+        return "bg-light";
       case 18:
       case 19:
       case 20:
-        return "#FADBD8";
+        return "bg-danger";
       default:
         return "";
     }
@@ -60,6 +60,7 @@ function TableTab() {
       } else if (f === "D") {
         return <i className="fa fa-minus-square text-secondary"></i>;
       }
+      else return ''
     });
   };
   const standings = leagueTable.response[0].league.standings[0];
@@ -84,7 +85,7 @@ function TableTab() {
         </thead>
         <tbody>
           {standings.map((standing) => (
-            <tr style={{ backgroundColor: rowRankColor(standing.rank) }}>
+            <tr className={rowRankColor(standing.rank)}>
               <td>{standing.rank}</td>
               <td>
                 <i

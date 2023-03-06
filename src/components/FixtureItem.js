@@ -1,7 +1,19 @@
 function FixtureItem({ details }) {
   return (
     <div className="row d-flex align-items-center">
-      <div className="col-lg-1">{details.fixture.status.elapsed}</div>
+      <div className="col-md-2">
+        {details.fixture.status.elapsed < 90 ? (
+          <div className="d-flex justify-content-between">
+            <span className="text-success">Live</span>
+            <span>{details.fixture.status.elapsed}'</span>
+          </div>
+        ) : (
+          <div className="d-flex justify-content-between">
+            <span></span>
+            <span>{details.fixture.status.elapsed}'</span>
+          </div>
+        )}
+      </div>
       <div className="col">
         <div className="row">
           <span className="col d-flex align-items-lg-center justify-content-start">
