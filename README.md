@@ -1,4 +1,6 @@
-# Getting Started with Football  React App
+
+# Please visit the live application here 
+https://shraddhamhatre113.github.io/score-app/
 ### $\color{purple}{CountryListPanel}$  :- 
 Significance of this component is you can see countries list with each country name and flag.If click on one of the country from country list it will display league list of the country.
 <img src = './src/images/countrylist.jpg' style = 'width:10%,vertical-align:center'>
@@ -18,12 +20,11 @@ Significance of this component is you can see countries list with each country n
 
 ### $\color{purple}{FixtureList}$  :-
 * Fixture-list component is display the details of the league.
-* 
+ 
 <img src = './src/images/fixture-list.jpg' style = 'width:10%'>
 
 ### $\color{purple}{FixtureDetail}$  :-
-* Fixture-detail component is displaying fixture detail of the selected league.
-* 
+* Fixture-detail component is displaying fixture detail of the selected league. 
 <img src = './src/images/fixture-details.jpg' style = 'width:10%'>
 
 ### $\color{purple}{TabPanel}$  :-
