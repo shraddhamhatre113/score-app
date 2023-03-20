@@ -4,7 +4,7 @@ https://shraddhamhatre113.github.io/score-app/
 ### $\color{purple}{CountryListPanel}$  :- 
 Significance of this component is you can see countries list with each country name and flag.If click on one of the country from country list it will display league list of the country.
 <br>
-<img src = './src/images/countrylist.jpg' width='50%' height='300px' style='object-fit:cover'>
+<img src = './src/images/countrylist.jpg' width='100%' height='300px' style='object-fit:cover'>
 
  ### $\color{purple}{LeagueListPanel}$  :- 
  This component will display a leagues list . select league from league list then it will open league details. 
