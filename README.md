@@ -20,13 +20,13 @@ Significance of this component is you can see countries list with each country n
 
 ### $\color{purple}{FixtureDetail}$  :-
 * Fixture-detail component is displaying fixture detail of the selected league.
-<img src = './src/images/fixture-details.jpg' style = 'width:5%'>
+<img src = './src/images/fixture-details.jpg' style = 'width:10%'>
 
 ### $\color{purple}{TabPanel}$  :-
 * TabPanel component- fixture list tabs are created in this component.created separate component for each tab.
 
 ### $\color{purple}{InfoTabPanel}$  :-
-*Info-tab-panel- This component is rendering information of the league.<img src = './src/images/fixture-details.jpg' style = 'width:5%'>
+*Info-tab-panel- This component is rendering information of the league.<img src = './src/images/fixture-details.jpg' style = 'width:10%'>
 
 ### $\color{purple}{SummaryTab}$  :-
 * Summary-tab-panel - It is displaying summary of the league..<img src = './src/images/summary.jpg' style = 'width:10%'>
@@ -42,6 +42,6 @@ Significance of this component is you can see countries list with each country n
 * https://www.livescore.com/en/ :- took reference from this site to building app
 * https://www.api-football.com -for Foot-ball data.
 * https://bootstrapstudio.io/ I used this site to build component.
-* https://www.npmjs.com/package/react-soccer-lineup?activeTab=readme :- Install this react library for lineup tab.
+* https://www.npmjs.com/package/react-soccer-lineup?activeTab=readme :- React library for lineup tab.
 * https://bootswatch.com/pulse/ :- used this bootstrap theme
 
